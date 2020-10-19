@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/',methods=['GET'])
 def index():
-    return 'Pagina Flask en Heroku'
+    return '<h1>Pagina Flask en Heroku</h1>'
 
 
 
